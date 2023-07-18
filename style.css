@@ -1,0 +1,114 @@
+
+    /* CSS RESET */
+    body {
+        font-family: 'Kanit', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('Bg.jpg');
+        color: white;
+        /* height: 87cm;
+            width: 130cm; */
+
+    }
+
+    .left {
+        font-family: 'Kanit', sans-serif;
+        /* border: 2px solid red; */
+        display: inline-block;
+        left: 40px;
+        top: 20px;
+        position: absolute;
+        text-align: center;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 32px;
+        font-size: 27px;
+    }
+
+    .left img {
+        width: 91px;
+        filter: invert(1);
+    }
+
+    .center {
+        /* border: 2px solid blue; */
+        width: 40%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        right: 40px;
+        top: 34px;
+        position: absolute;
+    }
+
+    .btn {
+        font-family: 'Kanit', sans-serif;
+        padding: 5px 11px;
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: gold;
+        text-decoration: solid;
+        background-color: rgb(43, 41, 41);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 5px;
+    }
+
+    .navbar li a:hover {
+        color: gold;
+        text-decoration: solid;
+    }
+
+    .container {
+        /* border: 2px solid yellow; */
+        margin: -40px 67px;
+        padding: 60px 64px;
+        width: 544px;
+        border-radius: 44px;
+    }
+
+    .formgrp input {
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 7px;
+        border: 2px solid black;
+        margin: 4px auto;
+        font-size: 19px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 8px;
+    }
+
+    .container button {
+        display: block;
+        margin: 6px auto;
+        text-align: center;
+        width: 143px;
+        font-size: 19px;
+    }   
