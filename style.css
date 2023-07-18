@@ -23,13 +23,15 @@
 
     .left div {
         text-align: center;
-        line-height: 32px;
+        line-height: 34px;
         font-size: 27px;
+        color: goldenrod;
+        font-family: 'Manrope', sans-serif;
     }
 
     .left img {
-        width: 91px;
-        filter: invert(1);
+        width: 95px;
+        /* filter: invert(1); */
     }
 
     .center {
@@ -60,7 +62,7 @@
     }
 
     .btn:hover {
-        color: gold;
+        color: goldenrod;
         text-decoration: solid;
         background-color: rgb(43, 41, 41);
     }
@@ -77,7 +79,7 @@
     .navbar li a {
         color: white;
         text-decoration: none;
-        padding: 14px 5px;
+        padding: 14px 6px;
     }
 
     .navbar li a:hover {
